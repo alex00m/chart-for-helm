@@ -1,0 +1,13 @@
+configMap:
+  BASE_URL: http://demo2-web-app.ml
+  DB_HOST: 10.0.0.0
+
+replicaCount: 2
+
+container:
+  image:
+    repository: eu.gcr.io/demo2-323117/web-app:init
+  ports:
+    - containerPort: 8080
+    
+environment: test
