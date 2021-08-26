@@ -1,4 +1,4 @@
 apiVersion: v2
-name: draw-app
+name: app
 type: application
 version: 0.2.0
