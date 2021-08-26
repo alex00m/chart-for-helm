@@ -1,12 +1,12 @@
 apiVersion: v1
 entries:
-  web:
+  app:
   - apiVersion: v2
-    created: "2021-08-26T18:04:26.137653368+03:00"
-    digest: be4bace1dbed5bbc37b05a4c80c7e1591a45eb6a043347bd57f7fae415ee6a25
+    created: "2021-08-26T22:33:51.328910733+03:00"
+    digest: 506489115adacc90ed13862cfb063cbd1401d4ece3c4081446db9e253135999c
     name: app
     type: application
     urls:
-    - web-0.2.0.tgz
+    - app-0.2.0.tgz
     version: 0.2.0
-generated: "2021-08-26T18:04:26.136390552+03:00"
+generated: "2021-08-26T22:33:51.328293354+03:00"
