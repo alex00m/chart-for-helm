@@ -6,10 +6,10 @@ metadata:
     env  : {{ .Values.environment}}
 spec:
   selector:
-    project: {{ .Values.environment}}
+    project: {{ .Release.Name }}
   ports:
     - name      : listener
       protocol  : TCP
-      port      : 80  
+      port      : 8080  
       targetPort: 8080
   type: LoadBalancer
