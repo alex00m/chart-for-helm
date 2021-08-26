@@ -5,9 +5,8 @@ configMap:
 replicaCount: 2
 
 container:
-  image:
-    repository: eu.gcr.io/demo2-323117/app:init
-  ports:
-    - containerPort: 8080
+  image: eu.gcr.io/demo2-323117/app:init
+  ports: 8080
+  tag: init
     
 environment: test
