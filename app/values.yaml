@@ -1,7 +1,7 @@
 replicaCount: 2
 
 container:
-  image: eu.gcr.io/demo2-323117/app
+  image: eu.gcr.io/demo2-323117/app1
   ports: 8080
   tag: init
     
