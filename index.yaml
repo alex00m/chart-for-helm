@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   app:
   - apiVersion: v2
-    created: "2021-08-27T10:29:22.243494973+03:00"
+    created: "2021-08-27T14:43:36.801635288+03:00"
     digest: f89e76c9e0b8bbcb7136e22cc69d9e9e1a18224bce69f947d84bfe49beb9bfa5
     name: app
     type: application
@@ -11,11 +11,11 @@ entries:
     version: 0.2.0
   app1:
   - apiVersion: v2
-    created: "2021-08-27T10:29:22.243877742+03:00"
-    digest: d4e06537cbe75243bab931f4c864b4cfbb4da8bae2b51994db7ca6b27f910dc6
+    created: "2021-08-27T14:43:36.802028061+03:00"
+    digest: 92b3f340e8ff49b12d9f0b1cfe6f7300a8a96d0e5e9da4c334af1b944e889cba
     name: app1
     type: application
     urls:
     - app1-0.2.0.tgz
     version: 0.2.0
-generated: "2021-08-27T10:29:22.226195369+03:00"
+generated: "2021-08-27T14:43:36.787814728+03:00"

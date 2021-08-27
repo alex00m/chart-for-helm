@@ -17,3 +17,5 @@ spec:
       containers:
         - name : {{ .Release.Name }}-web
           image: {{ .Values.container.image}}:{{ .Values.container.tag}}
+          ports:
+          - containerPort: 8080
